@@ -1,0 +1,8 @@
+NPC po komendzie w grze /n name zostaje na stale w grze.
+...local mapNpcsPath = mapName .. "-npc.xml"
+            local filePath = string.format("%s/world/%s", DATA_DIRECTORY, mapNpcsPath)
+            local npcsFile = io.open(filePath, "r")
+            if not npcsFile then
+                player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "There was an error when trying to add permanent NPC. NPC File not found.")
+                return true
+            end...
