@@ -1,0 +1,32 @@
+    -- Easy
+    [1] = {
+        [1] = {
+            required = {
+                {5910, 5},
+                {12552, 1},
+            },
+            rewards = {
+                items = {
+                    {3365, 1},
+                },
+                -- premiumPoints = 20,
+                -- tibiaCoins = 20,
+            },
+        },
+        [2] = {
+            required = {
+                {5912, 2},
+                {5913, 2},
+                {12552, 2},
+            },
+            rewards = {
+                randomItem = true,
+                items = {
+                    {3043, 50},
+                    {3031, 100},
+                },
+                premiumPoints = 25,
+                tibiaCoins = 20,
+            },
+        }
+    },
