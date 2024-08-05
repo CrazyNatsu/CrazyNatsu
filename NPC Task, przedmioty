@@ -29,4 +29,20 @@
                 tibiaCoins = 20,
             },
         }
+        [3] = {
+            required = {
+                {5912, 2},
+                {5913, 2},
+                {12552, 2},
+            },
+            rewards = {
+                randomItem = true,
+                items = {
+                    {3043, 50},
+                    {3031, 100},
+                },
+                premiumPoints = 25,
+                tibiaCoins = 20,
+            },
+        }
     },
